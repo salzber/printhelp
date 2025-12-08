@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title> Professional Printer Support & Setup Service</title>
+  <meta name="description"
+    content="24/7 Expert Printer Setup, Repair & Support for HP, Brother, Epson, Canon and all brands. Call +1 (866) 997-8562" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+  <style>
+    .hover-card {
+      transition: all 0.3s ease;
+    }
+
+    .hover-card:hover {
+      transform: translateY(-8px);
+      box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1);
+    }
+  </style>
+</head>
+
+<body class="bg-gray-50 text-gray-800 font-sans leading-relaxed">
+
+  <!-- Top Bar -->
+  <div class="bg-blue-700 text-white py-2 px-4 text-sm">
+    <div class="max-w-7xl mx-auto flex flex-col sm:flex-row justify-center items-center gap-4">
+      <div class="flex items-center gap-2">
+        <i class="fas fa-phone"></i>
+        <a onclick="callNow()" class="cursor-pointer">
+          <span>Call Us: <strong>+1-855-775-4304</strong></span>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Navbar -->
+  <nav class="bg-blue-800 shadow-lg sticky top-0 z-50">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex justify-between items-center h-16">
+
+        <!-- Logo -->
+        <div class="flex items-center gap-3">
+          <i class="fas fa-print text-white text-3xl"></i>
+          <span class="text-white font-bold text-2xl">Printthassist</span>
+        </div>
+
+        <!-- Desktop Menu -->
+        <ul class="hidden md:flex space-x-8 text-white font-medium">
+          <li><a href="#" class="hover:text-blue-200 transition">Home</a></li>
+          <li><a href="#" class="hover:text-blue-200 transition">Services</a></li>
+          <li><a href="#" class="hover:text-blue-200 transition">Printers</a></li>
+          <li><a href="#" class="hover:text-blue-200 transition">About</a></li>
+          <li><a href="#" class="hover:text-blue-200 transition">Contact</a></li>
+        </ul>
+
+        <!-- Call Button -->
+        <a onclick="callNow()"
+          class="hidden md:block bg-orange-500 hover:bg-orange-600 text-white font-bold py-2 px-4 rounded-lg text-sm mx-3 transition transform hover:scale-105">
+          <i class="fas fa-phone mr-2"></i> +1-855-775-4304
+        </a>
+
+        <!-- Mobile Toggle Button -->
+        <button class="md:hidden text-white" id="mobileMenuBtn">
+          <i class="fas fa-bars text-2xl"></i>
+        </button>
+      </div>
+    </div>
+
+    <!-- Mobile Dropdown Menu -->
+    <div id="mobileMenu"
+      class="hidden bg-blue-800 text-white px-4 py-4 space-y-4 font-medium md:hidden transition-all duration-300">
+
+      <a href="#" class="block hover:text-blue-200">Home</a>
+      <a href="#" class="block hover:text-blue-200">Services</a>
+      <a href="#" class="block hover:text-blue-200">Printers</a>
+      <a href="#" class="block hover:text-blue-200">About</a>
+      <a href="#" class="block hover:text-blue-200">Contact</a>
+
+      <a onclick="callNow()"
+        class="block bg-orange-500 hover:bg-orange-600 text-white font-bold py-2 px-4 rounded-lg text-sm w-max">
+        <i class="fas fa-phone mr-2"></i> +1-855-775-4304
+      </a>
+
+    </div>
+  </nav>
+  <!-- Hero Section -->
+  <section class="bg-gradient-to-r from-blue-900 to-blue-700 text-white py-16">
+    <div class="max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-10 items-center">
+      <div>
+        <h1 class="text-4xl md:text-5xl font-bold mb-6">Professional Printer Support<br><span class="text-blue-200">24/7
+            Instant Help</span></h1>
+        <p class="text-lg mb-6">We fix all printer brands – HP, Brother, Epson, Canon, Lexmark & more.</p>
+        <ul class="space-y-3 text-base mb-8">
+          <li><i class="fas fa-check-circle text-green-300 mr-2"></i>All Printer Brands Supported</li>
+          <li><i class="fas fa-check-circle text-green-300 mr-2"></i>Wi-Fi & New Printer Setup</li>
+          <li><i class="fas fa-check-circle text-green-300 mr-2"></i>Paper Jam, Ink, Driver Issues</li>
+          <li><i class="fas fa-check-circle text-green-300 mr-2"></i>Remote Support in Minutes</li>
+          <li><i class="fas fa-check-circle text-green-300 mr-2"></i>100% Satisfaction Guaranteed</li>
+        </ul>
+        <a onclick="callNow()"
+          class="bg-orange-500 hover:bg-orange-600 text-white font-bold md:py-4 py-2 md:px-8 px-4 rounded-lg text-sm md:text-lg shadow-lg inline-block transition transform hover:scale-105">
+          <i class="fas fa-phone mr-2"></i> Call Now: +1-855-775-4304
+        </a>
+      </div>
+      <div class="flex justify-center">
+        <img src="https://www.printhassist.com/assets/images/printer-banner.png" alt="Professional Printer Support"
+          class="rounded-xl shadow-2xl max-w-full h-auto" />
+      </div>
+    </div>
+  </section>
+
+  <!-- Why Choose Us -->
+  <section class="py-16 bg-white">
+    <div class="max-w-7xl mx-auto px-6">
+      <h2 class="text-3xl font-bold text-center mb-12">Why Thousands Trust Printthassist</h2>
+      <div class="grid md:grid-cols-3 gap-10">
+        <div class="text-center hover-card bg-gray-50 p-8 rounded-xl border">
+          <img src="https://www.printhassist.com/assets/images/call.jpeg" alt="24/7 Support"
+            class="w-full h-52 object-cover rounded-lg mb-4" />
+          <h3 class="text-xl font-bold mb-2">24/7 Instant Support</h3>
+          <p class="text-gray-600">Call anytime – our experts are always ready to help you instantly.</p>
+        </div>
+        <div class="text-center hover-card bg-gray-50 p-8 rounded-xl border">
+          <img src="https://www.printhassist.com/assets/images/budget.jpeg" alt="Affordable Pricing"
+            class="w-full h-52 object-cover rounded-lg mb-4" />
+          <h3 class="text-xl font-bold mb-2">Budget-Friendly Rates</h3>
+          <p class="text-gray-600">Premium service at honest prices. No hidden charges.</p>
+        </div>
+        <div class="text-center hover-card bg-gray-50 p-8 rounded-xl border">
+          <img src="https://www.printhassist.com/assets/images/help.jpeg" alt="Expert Team"
+            class="w-full h-52 object-cover rounded-lg mb-4" />
+          <h3 class="text-xl font-bold mb-2">Certified Technicians</h3>
+          <p class="text-gray-600">10+ years experienced team fixes any printer issue fast.</p>
+        </div>
+      </div>
+      <div class="text-center mt-10">
+         <a onclick="callNow()"
+          class="bg-orange-500 hover:bg-orange-600 text-white font-bold md:py-4 py-2 md:px-8 px-4 rounded-lg text-sm md:text-lg shadow-lg inline-block transition transform hover:scale-105">
+          <i class="fas fa-phone mr-2"></i> Call Now: +1-855-775-4304
+        </a>
+      </div>
+    </div>
+
+    
+  </section>
+
+  <!-- Printer Guide 2025 -->
+  <section class="py-16 bg-gray-100">
+    <div class="max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-12 items-center">
+      <img src="https://i.ibb.co/7dkPH711/printer-page-2-removebg-preview.png" alt="Best Printers 2025"
+        class="rounded-xl shadow-xl" />
+      <div>
+        <h2 class="text-3xl font-bold mb-6">Best Printer Guide 2025</h2>
+        <p class="text-lg mb-6">Inkjet for photos, Laser for offices, All-in-One for home & small business.</p>
+        <ul class="space-y-4 text-gray-700">
+          <li><strong>Print Speed:</strong> Look for 20+ PPM for home, 40+ PPM for office</li>
+          <li><strong>Resolution:</strong> 1200x1200 DPI minimum for sharp text</li>
+          <li><strong>Wireless + Mobile Printing:</strong> Must have in 2025</li>
+          <li><strong>Duplex Printing:</strong> Saves paper & time</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+  <!-- Hero Section -->
+  <section class="bg-gradient-to-r from-blue-900 to-blue-700 text-white py-16">
+    <div class="max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-10 items-center">
+      <div>
+        <h1 class=" text-lg md:text-2xl mb-2">Printer Guide 2025: Types, Specifications, and Must-Have Features</span></h1>
+        <p class="text-sm md:text-[16px]  text-gray-300 mb-6">Choosing the printer in 2025 becomes easier when you are fully aware of
+          the various types, specifications, and features that are there. This simple guide will provide you with all
+          the information so that your choice can be the best that suits your needs. There are many types of printers.
+          Inkjet printers are great for regular use, especially for colorful images. Laser printers are perfect for
+          quick, large-volume printing and are also mostly used in offices. Scanner and copier all-in-one printers are
+          best for multitasking. Specifications-wise, you will want to keep an eye on print speed (number of pages per
+          minute), resolution (DPI for sharpness), and monthly duty cycle (whatever amount of print can handle in one
+          month). In case you are printing a lot of papers, then getting a high-speed laser printer with a huge paper
+          tray is a better option.</p>
+
+        <a onclick="callNow()"
+          class="bg-orange-500 hover:bg-orange-600 text-white font-bold md:py-4 py-2 md:px-8 px-4 rounded-lg text-sm md:text-lg shadow-lg inline-block transition transform hover:scale-105">
+          <i class="fas fa-phone mr-2"></i> Call Now: +1-855-775-4304
+        </a>
+      </div>
+      <div class="flex justify-center mt-10">
+        <img src="https://www.printhassist.com/assets/images/printer-banner.png" alt="Professional Printer Support"
+          class="rounded-xl shadow-2xl max-w-full h-auto" />
+      </div>
+    </div>
+  </section>
+
+
+
+  <!-- Popular Printers for Sale -->
+  <section class="py-16 bg-white">
+    <div class="max-w-7xl mx-auto px-6">
+      <h2 class="text-3xl font-bold text-center mb-12">Best Selling Printers 2025</h2>
+
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+
+        <!-- HP Smart Tank 500 -->
+        <div class="border rounded-xl overflow-hidden shadow hover-card">
+          <img src="https://www.printhassist.com/assets/images/Officejet-pro.png" alt="HP Smart Tank 500"
+            class="mx-auto" />
+          <div class="p-5 text-center">
+            <h4 class="font-bold text-lg">HP Smart Tank 500</h4>
+            <p class="text-gray-500 line-through">$299</p>
+            <p class="text-2xl font-bold text-blue-600">$249</p>
+            <button class="w-full mt-3 bg-blue-600 text-white py-3 rounded-lg hover:bg-blue-700 transition">Buy
+              Now</button>
+          </div>
+        </div>
+
+        <!-- HP LaserJet Pro M404 -->
+        <div class="border rounded-xl overflow-hidden shadow hover-card">
+          <img src="https://www.printhassist.com/assets/images/laserjet.png" alt="HP LaserJet Pro M404"
+            class="mx-auto" />
+          <div class="p-5 text-center">
+            <h4 class="font-bold text-lg">HP LaserJet Pro M404</h4>
+            <p class="text-2xl font-bold text-blue-600">$379</p>
+            <button class="w-full mt-3 bg-blue-600 text-white py-3 rounded-lg hover:bg-blue-700 transition">Buy
+              Now</button>
+          </div>
+        </div>
+
+        <!-- Epson L3250 -->
+        <div class="border rounded-xl overflow-hidden shadow hover-card">
+          <img src="https://www.printhassist.com/assets/images/officejet.png" alt="Epson EcoTank L3250"
+            class="mx-auto" />
+          <div class="p-5 text-center">
+            <h4 class="font-bold text-lg">Epson EcoTank L3250</h4>
+            <p class="text-2xl font-bold text-blue-600">$289</p>
+            <button class="w-full mt-3 bg-blue-600 text-white py-3 rounded-lg hover:bg-blue-700 transition">Buy
+              Now</button>
+          </div>
+        </div>
+
+        <!-- Canon G3020 -->
+        <div class="border rounded-xl overflow-hidden shadow hover-card">
+          <img src="https://www.printhassist.com/assets/images/Officejet-pro.png" alt="Canon PIXMA G3020"
+            class="mx-auto" />
+          <div class="p-5 text-center">
+            <h4 class="font-bold text-lg">Canon PIXMA G3020</h4>
+            <p class="text-2xl font-bold text-blue-600">$265</p>
+            <button class="w-full mt-3 bg-blue-600 text-white py-3 rounded-lg hover:bg-blue-700 transition">Buy
+              Now</button>
+          </div>
+        </div>
+
+        <!-- HP DeskJet 3752 -->
+        <div class="border rounded-xl overflow-hidden shadow hover-card">
+          <img src="https://www.printhassist.com/assets/images/laserjet.png" alt="HP DeskJet 3752" class="mx-auto" />
+          <div class="p-5 text-center">
+            <h4 class="font-bold text-lg">HP DeskJet 3752</h4>
+            <p class="text-2xl font-bold text-blue-600">$215.99</p>
+            <button class="w-full mt-3 bg-blue-600 text-white py-3 rounded-lg hover:bg-blue-700 transition">Buy
+              Now</button>
+          </div>
+        </div>
+
+        <!-- HP OfficeJet 3830 -->
+        <div class="border rounded-xl overflow-hidden shadow hover-card">
+          <img src="https://www.printhassist.com/assets/images/envy-pro.png" alt="HP OfficeJet 3830" class="mx-auto" />
+          <div class="p-5 text-center">
+            <h4 class="font-bold text-lg">HP OfficeJet 3830</h4>
+            <p class="text-2xl font-bold text-blue-600">$220.99</p>
+            <button class="w-full mt-3 bg-blue-600 text-white py-3 rounded-lg hover:bg-blue-700 transition">Buy
+              Now</button>
+          </div>
+        </div>
+
+        <!-- HP Envy 5660 -->
+        <div class="border rounded-xl overflow-hidden shadow hover-card">
+          <img src="https://www.printhassist.com/assets/images/deskjet.png" alt="HP Envy 5660" class="mx-auto" />
+          <div class="p-5 text-center">
+            <h4 class="font-bold text-lg">HP Envy 5660</h4>
+            <p class="text-2xl font-bold text-blue-600">$231.99</p>
+            <button class="w-full mt-3 bg-blue-600 text-white py-3 rounded-lg hover:bg-blue-700 transition">Buy
+              Now</button>
+          </div>
+        </div>
+
+        <!-- HP OfficeJet Pro 6968 -->
+        <div class="border rounded-xl overflow-hidden shadow hover-card">
+          <img src="https://www.printhassist.com/assets/images/Officejet-pro.png" alt="HP OfficeJet Pro 6968"
+            class="mx-auto" />
+          <div class="p-5 text-center">
+            <h4 class="font-bold text-lg">HP OfficeJet Pro 6968</h4>
+            <p class="text-2xl font-bold text-blue-600">$233.99</p>
+            <button class="w-full mt-3 bg-blue-600 text-white py-3 rounded-lg hover:bg-blue-700 transition">Buy
+              Now</button>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Official Support Links -->
+  <section class="bg-blue-800 text-white py-12">
+    <div class="max-w-4xl mx-auto px-6 text-center">
+      <h3 class="text-2xl font-bold mb-8">For Printer Brand Warranty and Service</h3>
+      <div class="grid md:grid-cols-3 gap-6 text-left">
+        <div>
+          <strong>HP Support:</strong><br>
+          <p>For HP printer customer service, HP printer customer support and HP printer help. Please contact</p>
+          <a href="https://support.hp.com" target="_blank"
+            class="underline hover:text-blue-200">https://support.hp.com</a>
+        </div>
+        <div>
+          <strong>Epson Support:</strong><br>
+          <p>For Epson printer customer service, Epson printer customer support and Epson printer help. Please contact
+          </p>
+          <a href="https://epson.com/Support" target="_blank"
+            class="underline hover:text-blue-200">https://epson.com/Support</a>
+        </div>
+        <div>
+          <strong>Brother Support:</strong><br>
+          <p>For Epson printer customer service, Epson printer customer support and Epson printer help. Please contact
+          </p>
+          <a href="https://www.brother-usa.com/support" target="_blank"
+            class="underline hover:text-blue-200">https://www.brother-usa.com/support</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-900 text-gray-400 py-12">
+    <div class="max-w-7xl mx-auto px-6 grid md:grid-cols-4 gap-8">
+      <div>
+        <h4 class="text-white font-bold text-lg mb-4">Printthassist</h4>
+        <p class="text-sm">Your trusted 24/7 printer support partner. We are not affiliated with any printer brand.</p>
+        <p class="mt-4 text-xs">© 2025 Printthassist.com - All Rights Reserved</p>
+      </div>
+      <div>
+        <h4 class="text-white font-bold mb-4">Quick Links</h4>
+        <ul class="space-y-2 text-sm">
+          <li><a href="#" class="hover:text-white">About Us</a></li>
+          <li><a href="#" class="hover:text-white">Services</a></li>
+          <li><a href="#" class="hover:text-white">Contact</a></li>
+          <li><a href="#" class="hover:text-white">Privacy Policy</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4 class="text-white font-bold mb-4">Contact Info</h4>
+        <p class="text-sm">
+          <i class="fas fa-phone mr-2"></i> +1-855-775-4304<br>
+
+        </p>
+      </div>
+      <div>
+        <h4 class="text-white font-bold mb-4">Follow Us</h4>
+        <div class="flex gap-4 text-2xl">
+          <a href="#" class="hover:text-white"><i class="fab fa-facebook"></i></a>
+          <a href="#" class="hover:text-white"><i class="fab fa-twitter"></i></a>
+          <a href="#" class="hover:text-white"><i class="fab fa-instagram"></i></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+
+
+</body>
+
+<script>
+  const mobileMenuBtn = document.getElementById("mobileMenuBtn");
+  const mobileMenu = document.getElementById("mobileMenu");
+
+  mobileMenuBtn.addEventListener("click", () => {
+    mobileMenu.classList.toggle("hidden");
+  });
+  function callNow() {
+    window.location.href = "tel:+15164178110";
+  }
+</script>
+
+</html>
